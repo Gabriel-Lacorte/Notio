@@ -65,6 +65,3 @@ The API routes are documented in the [`routes.http`](routes.http) file. You can 
 ## License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
-Gabriel Lacorte - [@GabrielLacorte](https://twitter.com/GabrielLacorte) - gabriel@example.com
-
-Project Link: [https://github.com/Gabriel-Lacorte/Notio](https://github.com/Gabriel-Lacorte/Notio)
