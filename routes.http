@@ -1,11 +1,13 @@
+### Create a note
+
 POST http://localhost:3000/notes
 Content-Type: application/json
 
 {
-    "content": "This is a note",
+    "content": "Hello, World!",
     "burnAfter": false
 }
 
-###
+### Get a note
 
 GET http://localhost:3000/notes/o2fnWqS7
