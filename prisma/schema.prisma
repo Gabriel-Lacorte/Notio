@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Note {
+  id        String   @id @default(dbgenerated("nanoid(8)")) @db.VarChar(8)
+  content   String
+  burnAfter Boolean  @default(false) @map("burn_after")
+  createdAt DateTime @default(now())
+
+  @@map("notes")
+}

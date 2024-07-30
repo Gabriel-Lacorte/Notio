@@ -1,0 +1,11 @@
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "content": "This is a note",
+    "burnAfter": false
+}
+
+###
+
+GET http://localhost:3000/notes/o2fnWqS7
